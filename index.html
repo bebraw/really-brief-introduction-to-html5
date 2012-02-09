@@ -1,85 +1,99 @@
 <!DOCTYPE html>
+
+<!--
+  Slide System:
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
 <html>
-<head>
-  <meta charset='utf-8'>
+  <head>
+    <title>Really Brief Introduction to HTML5</title>
 
-  <title>bebraw/really-brief-introduction-to-html5 @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #bba3e3;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
+    <meta charset='utf-8'>
+    <script
+      src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    article {
+      background-color: white;
+      background: url(http://koodilehto.fi/images/logo_black.png) 820px 625px no-repeat; /* TODO: point to proper logo */
     }
-    #container {
-      margin: 0 auto;
-      width: 700px;
+    
+    .source {
+      background-color: white;
+      padding: 0.5em;
+      opacity: 0.9;
     }
-    h1 { font-size: 3.8em; color: #445c1c; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #445c1c; }
-    h3 { text-align: center; color: #445c1c; }
-    a { color: #445c1c; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
-</head>
 
-<body>
-  <a href="https://github.com/bebraw/really-brief-introduction-to-html5"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  <body style='display: none'>
 
-  <div id="container">
+    <section class='slides layout-regular'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+      
+     <article>
+        <h3>
+          Really Brief Introduction to HTML5
+        </h3>
+       <p>
+          Juho Vepsäläinen
+          <br>
+          Feb 9, 2012
+        </p>
+        <p>
+          <img class='centered' style='height: 400px' src='http://farm6.staticflickr.com/5214/5383794499_f6e43fd12f_z.jpg'>
+        </p>
+        <div class='source'>
+          <a href="http://www.flickr.com/photos/42147041@N06/5383794499/">http://www.flickr.com/photos/42147041@N06/5383794499/</a>
+        </div>
+      </article>
 
-    <div class="download">
-      <a href="https://github.com/bebraw/really-brief-introduction-to-html5/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/bebraw/really-brief-introduction-to-html5/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
-    </div>
+      <article>
+        <p>
+          <img class='centered' style='height: 600px;margin-left:-2em' src='http://upload.wikimedia.org/wikipedia/commons/f/f7/HTML5-APIs-and-related-technologies-by-Sergey-Mavrody.png'>
+        </p>
+        <div class='source'>
+          <a href="http://en.wikipedia.org/wiki/File:HTML5-APIs-and-related-technologies-by-Sergey-Mavrody.png">http://en.wikipedia.org/wiki/File:HTML5-APIs-and-related-technologies-by-Sergey-Mavrody.png</a>
+        </div>
+      </article>
+            
+      <article>
+        <h3>
+          General Notes
+        </h3>
+        <section>
+        <ul>
+          <li><a href="http://dev.w3.org/html5/markup/">New semantic elements</a> such as aside, article, header, footer, figure</li>
+          <li>Support to older browsers via a <a href="http://code.google.com/p/html5shiv/">shim</a></li>
+          <li><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills">HTML5 Cross-browser polyfills</a></li>
+          <li><a href="http://www.modernizr.com/">Modernizr</a> for JS feature detection</li>
+          <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a></li>
+          <li><a href="http://www.initializr.com/">Initializr</a></li>
+        </ul>
+        </section>
+      </article>
 
-    <h1><a href="https://github.com/bebraw/really-brief-introduction-to-html5">really-brief-introduction-to-html5</a>
-      <span class="small">by <a href="https://github.com/bebraw">bebraw</a></span></h1>
+      <article>
+        <h3>
+          Thank you!
+        </h3>
+        <ul>
+          <li><a href='http://www.koodilehto.fi'>koodilehto.fi</a></li>
+        </ul>
+      </article>
 
-    <div class="description">
-      Presentation slides (still WIP)
-    </div>
+    </section>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-      <h2>Contact</h2>
-      <p>Juho Vepsäläinen (bebraw@gmail.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/bebraw/really-brief-introduction-to-html5/zipball/master">zip</a> or
-      <a href="https://github.com/bebraw/really-brief-introduction-to-html5/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/bebraw/really-brief-introduction-to-html5</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/bebraw/really-brief-introduction-to-html5">bebraw/really-brief-introduction-to-html5</a>
-    </div>
-
-  </div>
-
-</body>
+  </body>
 </html>
